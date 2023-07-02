@@ -256,34 +256,7 @@
     </style>
 </head>
 <body>
-    <section class="background_head_p">
-        <section class="navbar_sec">
-            <div class="nav_bar">
-                <div class="left_s_bar nav_bar_sides">
-                    <div class="logo_title nav_link logo">
-                        <div class="lg_ttl_txt_SKETS"><p class="font">SKETS</p></div>
-                        <div class="logotip_cont"><img class="logotip" src="{% static 'svgs/book.svg' %}"></div>
-                        <div class="lg_ttl_txt_ocvita"><p class="font">Освіта</p></div>
-                    </div>
-                </div>
-                <div class="right_s_bar nav_bar_sides">
-                    <div class="logo_title nav_link">
-                        <p class="font">Статті</p>
-                    </div>
-                    <div class="logo_title nav_link">
-                        <p class="font">Про нас</p>
-                    </div>
-                    <div class="logo_title nav_link">
-                        <p class="font">Зв'язатися</p>
-                    </div>
-                    <div class="logo_title nav_btn">
-                        <!-- <button class="font btn">Кабінет</button> -->
-                        <button class="btn" type="button" onclick="window.location.href=''">Почати</button>
-                    </div>
-                </div>
-    
-            </div>
-        </section>
+    {% include 'navbar.html' %}
         <!-- _____________________________________________________________________________________________________________________ -->
         <section class="header_sec">
             <div class="header_cont">
